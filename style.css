@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari&family=Montserrat:wght@500&display=swap');
+
+:root {
+    --font-mon: Montserrat;
+    --pane-padding: 5px 42px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background: url(imgs/Landing\ Bg.png) no-repeat;
+    height: 121vh;
+
+  /* background-position: cover;
+*/
+/* background-image: 30vh; */
+/* background-size: cover; */
+
+color: azure;
+font-size: large;
+
+}
+
+.navbar{
+    display: flex;
+ justify-content: space-between; 
+ align-items: center; 
+ padding: 3rem;
+ font-family: var(--font-mon);
+}
+
+#blue{
+    border-bottom: 4px solid #179BB1;
+    border-radius: 3px;
+}
+
+#c-color{
+    color: #179BB1;
+    /* font-family: 'IBM Plex Sans Devanagari', sans-serif; */
+    font-weight: bolder;
+}
+.line{
+    width: 3px;
+    height: 130px;
+    background-color: wheat;
+}
+.line-w{
+  width: 100px;
+  height: 3px;
+  background-color: whitesmoke;
+}
+.links ul li a{
+    text-decoration: none;
+    color: azure;
+    margin-left: 50px;
+}
+
+.links ul li{
+    list-style: none;
+}
+
+.links ul{
+ display: flex;
+    
+}
+
+.content{
+text-align: left;
+margin-top: 70px;
+font-family: 'IBM Plex Sans Devanagari', sans-serif;
+font-size: 5rem;
+margin-left: 44px;
+
+}
+
+.cont2{
+margin-left: 54px;
+font-family: 'IBM Plex Sans Devanagari', sans-serif;
+
+}
+
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 30px;
+    position: relative;
+    /* right: 0; */
+    top: 32vh;
+}
+
+.left_side img{
+    margin-top: 45px;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second{
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    color: whitesmoke;
+    /* background-color: hsl(245, 100%, 6%); */
+    background-color: hsl(247, 100%, 3%);
+    padding: 30px;
+
+}
+
+.heading h4{
+ font-size: 2.5rem;
+ margin-top: 10px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading p{
+margin: 28px 80px 80px 80px;
+text-align: center;
+}
+
+.last{
+    background: url(imgs/imagelast.png) no-repeat;
+    height: 109vh;
+    color: whitesmoke;
+    font-family: var(--font-mon);
+
+}
+
+.down{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.small{
+    font-size:18px;
+    font-family: var(--font-mon);
+    font-weight: 800;
+
+}
+#small{
+    width:3vw;
+    margin-left: 40px;
+}
+#size_small{
+    height: 39vh;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img{
+    width: 20vw;
+}
+.gallery img:hover{
+    transform: scale(1.05,1.05);
+
+}
+
+
+
+
+
+.text{    
+    font-size: 3.8rem;
+    line-height: 130%;
+    text-align: left;
+    margin: 0 40px;
+}
+.arrow img{
+    height: 20vh;
+    margin-left: 5rem;
+}
+
+.arrow img:hover{
+  transform: scale(1.2,1.2);
+}
+
+.copyright{
+    background-color: hsl(247, 100%, 3%);
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 7px;
+    font-family: var(--font-mon);
+}
+
+
+
+
+
